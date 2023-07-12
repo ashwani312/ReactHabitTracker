@@ -20,7 +20,7 @@ Follow these steps to set up and run the Habit Tracker app:
 3. Install the dependencies: `npm install`
 4. Start the development server: `npm start`
 
-The app will be accessible at `http://localhost:3000` in your browser.
+The app will be accessible at `https://ashwani312.github.io/ReactHabitTracker/` in your browser.
 
 ## Technologies Used
 
