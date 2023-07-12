@@ -1,5 +1,3 @@
-Certainly! Here's a sample GitHub README file for your Habit Tracker app:
-
 # Habit Tracker App
 
 This is a Habit Tracker application built using React.js, Redux Toolkit, and React Redux. The app allows users to track their daily habits and mark them as done or not done.
