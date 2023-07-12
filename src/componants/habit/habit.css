@@ -1,0 +1,132 @@
+.habit {
+    margin-top: 50px;
+    height: max-content;
+    width: 80vw;
+    margin: auto;
+    background: linear-gradient(125deg, #153677, #4e085f);
+}
+
+.habitContainer {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    border-radius: 20px;
+    padding: 9px 8px;
+    text-align: center;
+}
+
+.habitname {
+    color: aquamarine;
+}
+
+.habitul {
+    color: white;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.habitul .habitlist {
+    list-style: none;
+    border: 1px solid aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 7px;
+    border-radius: 10px;
+    gap: 7px;
+}
+
+.habitlist .buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.buttons i {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.habitDay {
+    color: antiquewhite;
+}
+
+.habitDate {
+    color: aqua;
+}
+
+.deletebutton {
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    height: 30px;
+}
+
+.active {
+    color: cyan;
+}
+
+.activedone {
+    color: green;
+}
+
+.activeundone {
+    color: red;
+}
+
+
+@media only screen and (max-width: 1150px) {
+    .habitul {
+        gap: 10px;
+    }
+    .habitlist {
+        padding: 4px;
+        gap: 2px;
+        font-size: 13px;
+    }
+    .buttons{
+        gap: 4px;
+    }
+    .buttons i {
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+}
+
+@media only screen and (max-width: 985px) {
+    .habitul {
+        gap: 10px;
+    }
+    .habitlist {
+        padding: 2px;
+        gap: 2px;
+        font-size: 13px;
+    }
+    .buttons{
+        gap: 4px;
+    }
+    .buttons i {
+        font-size: 15px;
+        cursor: pointer;
+    }
+}
+@media only screen and (max-width: 840px) {
+    .habitul {
+        gap: 10px;
+    }
+    .habitlist {
+        padding: 2px;
+        gap: 2px;
+        font-size: 13px;
+    }
+    .buttons{
+        gap: 4px;
+    }
+    .buttons i {
+        font-size: 13px;
+        cursor: pointer;
+    }
+}

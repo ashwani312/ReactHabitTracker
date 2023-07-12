@@ -1,0 +1,15 @@
+.navbar {
+    height: 50px;
+    padding: 0px 20px;
+    background: linear-gradient(190deg, #1c61e9, #23022b);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo {
+    color: white;
+    cursor: pointer;
+}
+.navbar .date {
+    color: aqua;
+}

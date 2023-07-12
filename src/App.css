@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&family=Nunito+Sans&family=Ysabeau+Infant:wght@500&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Mukta', sans-serif;
+}
+.App{
+  height: 200vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(125deg, #153677, #4e085f);
+}
+.habits{
+  margin-top: 40px;
+}
