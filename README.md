@@ -1,5 +1,3 @@
-Certainly! Here's a sample GitHub README file for your Habit Tracker app:
-
 # Habit Tracker App
 
 This is a Habit Tracker application built using React.js, Redux Toolkit, and React Redux. The app allows users to track their daily habits and mark them as done or not done.
@@ -22,7 +20,7 @@ Follow these steps to set up and run the Habit Tracker app:
 3. Install the dependencies: `npm install`
 4. Start the development server: `npm start`
 
-The app will be accessible at `http://localhost:3000` in your browser.
+The app will be accessible at `https://ashwani312.github.io/ReactHabitTracker/` in your browser.
 
 ## Technologies Used
 
