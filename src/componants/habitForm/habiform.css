@@ -33,3 +33,16 @@ form button {
     border: none;
     border-radius: 6px;
 }
+.back{
+    position: absolute;
+    border: none;
+    border-radius: 7px;
+    background-color: purple;
+    color: white;
+    top: 40%;
+    left: 42%;
+    cursor: pointer;
+    padding: 4px 50px;
+    font-size: 15px;
+
+}

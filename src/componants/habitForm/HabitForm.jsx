@@ -19,6 +19,7 @@ export const HabitForm = () => {
         navigate("/");
     }
     return (
+        <>
         <div className='habitForm'>
             <div className="formContainer">
                 <form onSubmit={handleSubmit}>
@@ -32,6 +33,9 @@ export const HabitForm = () => {
                     >Add</button>
                 </form>
             </div>
+            <button className='back' onClick={()=>navigate("/")}>backToHome</button>
         </div>
+
+        </>
     )
 }
